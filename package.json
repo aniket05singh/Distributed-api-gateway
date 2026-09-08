@@ -1,0 +1,16 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "redis": "^6.2.1"
+  },
+  "devDependencies": {
+    "ioredis": "^5.11.1",
+    "ioredis-mock": "^8.13.1",
+    "redis-mock": "^0.56.3"
+  }
+}
